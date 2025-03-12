@@ -1,27 +1,28 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: hsl(125, 70%, 27%);
+    background-color: hwb(221 3% 55%);
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: hsl(0, 0%, 100%);
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: hsl(209, 100%, 50%);;
+    color: hwb(0 100% 0%);
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: hsl(209, 100%, 50%);
     color: white;
   }
+  
